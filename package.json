@@ -1,6 +1,6 @@
 {
   "name": "@binbinji/mpc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A cli tool to open miniprogram devtool automatically",
   "type": "commonjs",
   "bin": {
