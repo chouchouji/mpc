@@ -1,5 +1,5 @@
 {
-  "name": "mpc",
+  "name": "@binbinji/mpc",
   "version": "0.0.0",
   "description": "A cli tool to open miniprogram devtool",
   "type": "commonjs",
@@ -9,9 +9,13 @@
   "scripts": {
     "dev": "tsdown --watch",
     "build": "tsdown",
-    "release": "vr release --skip-npm-publish"
+    "release": "pnpm build && vr release --skip-npm-publish"
   },
-  "keywords": [],
+  "keywords": [
+    "miniprogram",
+    "cli",
+    "devtool"
+  ],
   "files": [
     "dist"
   ],
