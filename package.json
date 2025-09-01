@@ -1,0 +1,33 @@
+{
+  "name": "mpc",
+  "version": "0.0.0",
+  "description": "A cli tool to open miniprogram devtool",
+  "type": "commonjs",
+  "bin": {
+    "mpc": "dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsdown --watch",
+    "build": "tsdown",
+    "release": "vr release --skip-npm-publish"
+  },
+  "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "chouchouji",
+    "email": "1305974212@qq.com"
+  },
+  "dependencies": {
+    "cac": "^6.7.14"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@varlet/release": "^0.4.1",
+    "picocolors": "^1.1.1",
+    "tsdown": "^0.14.2",
+    "typescript": "^5.9.2"
+  }
+}
